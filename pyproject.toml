@@ -1,0 +1,26 @@
+[project]
+name = "shh-temp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "av>=16.1.0",
+    "dotenv>=0.9.9",
+    "keras>=3.12.1",
+    "mediapipe>=0.10.33",
+    "numpy>=2.2.6",
+    "opencv-python>=4.13.0.92",
+    "plantuml>=0.3.0",
+    "scikit-learn>=1.7.2",
+    "streamlit>=1.57.0",
+    "streamlit-webrtc>=0.64.6",
+    "tensorflow>=2.21.0",
+    "torch>=2.11.0",
+    "tornado>=6.5.5",
+]
+
+[tool.uv.workspace]
+members = [
+    "principle/DA",
+]
