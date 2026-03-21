@@ -1,14 +1,19 @@
 __pycache__/
 
-
-
 .venv/
 venv/
 env/
 myenv/
+
+
+.env
+.env.local
+.env.*
+GestureBridge/.env
 
 GestureBridge/MP_Data/
 GestureBridge/MP_DATA/
 GestureBridge/logs/
 GestureBridge/__pycache__/
 *.npy
+
