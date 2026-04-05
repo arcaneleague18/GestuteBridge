@@ -1,0 +1,10 @@
+opencv-python
+mediapipe
+tensorflow
+numpy
+scikit-learn
+torch
+streamlit
+streamlit-webrtc
+requests
+python-dotenv
